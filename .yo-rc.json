@@ -1,0 +1,9 @@
+{
+  "generator-nodecg": {
+    "promptValues": {
+      "authorName": "Roland",
+      "authorEmail": "rolandviper@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}

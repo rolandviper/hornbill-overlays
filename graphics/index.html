@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SplashScreen</title>
+	<link rel="stylesheet" href="index.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Staatliches&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+</head>
+<body>
+	
+	<div id="base">
+		<div id="nameplate">
+			<span class="text" id="waittitle"></span>
+			<span class="text" id="subtitle"></span>
+		</div>
+		<img src="./img/Hornbillbg/HornbillLogo.png" alt="" id="logo">
+		<div id="bg"></div>
+		
+	</div>
+	<div id="sponsor">
+	<div class="w3-content w3-section"  style="max-width: 10vw;">
+		<img class="mySlides w3-animate-fading ratio" src="./img/otherlogo/sedc.png" alt="" style="width: 100%">
+		<img class="mySlides w3-animate-fading ratio" src="./img/otherlogo/Logo-Vertical-White-Transparent.png" alt="" style="width: 100%">
+		<img class="mySlides w3-animate-fading ratio" src="./img/otherlogo/SARAWAK-MULTIMEDIA-AUTHORITY.png" alt="" style="width: 100%">
+		<img class="mySlides w3-animate-fading ratio" src="./img/otherlogo/riverside.png" alt="" style="width: 100%">
+		<img class="mySlides w3-animate-fading ratio" src="./img/otherlogo/urusharta.png" alt="" style="width: 100%">
+		<img class="mySlides w3-animate-fading ratio" src="./img/otherlogo/gizmo.png" alt="" style="width: 100%">
+		<img class="mySlides w3-animate-fading ratio" src="./img/otherlogo/sarawak-pay.png" alt="" style="width: 100%">
+		<img class="mySlides w3-animate-fading ratio" src="./img/otherlogo/tvs.png" alt="" style="width: 100%">
+		<img class="mySlides w3-animate-fading ratio" src="./img/otherlogo/sesa.png" alt="" style="width: 100%">
+	</div>
+	</div>
+		
+	<script>
+		var myIndex = 0;
+		carousel();
+		
+		function carousel() {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+		  }
+		  myIndex++;
+		  if (myIndex > x.length) {myIndex = 1}    
+		  x[myIndex-1].style.display = "block";  
+		  setTimeout(carousel, 9000);    
+		}
+		</script>	
+	
+
+
+	<script src="index.js" type="module"></script>
+</body>
+</html>

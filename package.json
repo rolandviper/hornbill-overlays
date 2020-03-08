@@ -1,0 +1,97 @@
+{
+	"name": "hornbill-overlays",
+	"version": "0.0.0",
+	"description": "Hornbill esports cup",
+	"homepage": "",
+	"author": {
+		"name": "Roland",
+		"email": "rolandviper@gmail.com",
+		"url": ""
+	},
+	"files": [ "dashboard", "graphics", "extension.js", "extension" ],
+	"keywords": [ "", "nodecg-bundle" ],
+	"nodecg": {
+		"compatibleRange": "^1.1.1",
+		"dashboardPanels": [
+			{
+				"name": "panel",
+				"title": "Panel",
+				"width": 2,
+				"file": "panel.html",
+				"headerColor": "#525F78"
+			},
+			{
+				"name": "l3info",
+				"title": "Lower3rdinfo",
+				"width": 2,
+				"file": "lower3rd.html",
+				"headerColor": "#525F78"
+			},
+			{
+				"name": "ComingUp",
+				"title": "ComingUpNext",
+				"width": 2,
+				"file": "comingup.html",
+				"headerColor": "#525F78"
+			},
+			{
+				"name": "Casters",
+				"title": "Casters",
+				"width": 2,
+				"file": "casters.html",
+				"headerColor": "#525F78"
+			},
+			{
+				"name": "Emcee",
+				"title": "Emcee",
+				"width": 2,
+				"file": "emcee.html",
+				"headerColor": "#525F78"
+			},
+			{
+				"name": "Schedule",
+				"title": "Schedules",
+				"width": 2,
+				"file": "schedule.html",
+				"headerColor": "#525F78"
+			}
+		],
+		"graphics": [
+			{
+				"file": "index.html",
+				"width": 1920,
+				"height": 1080
+			},
+			{
+				"file": "l3info.html",
+				"width": 1920,
+				"height": 1080
+			},
+			{
+				"file": "comingnext.html",
+				"width": 1920,
+				"height": 1080
+			},
+			{
+				"file": "casting.html",
+				"width": 1920,
+				"height": 1080
+			},
+			{
+				"file": "emc.html",
+				"width": 1920,
+				"height": 1080
+			},
+			{
+				"file": "scheduling.html",
+				"width": 1920,
+				"height": 1080
+			}
+		]
+	},
+	"repository": "https://github.com/nodecg/nodecg.git",
+	"license": "Apache-2.0",
+	"dependencies": {
+		"gsap": "^3.2.4"
+	}
+}

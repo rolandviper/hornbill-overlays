@@ -1,0 +1,67 @@
+body {
+	font-family: Staatliches, sans-serif;
+	background: transparent;
+}
+
+#nameplate {
+	position: absolute;
+	top: 65%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+
+	align-items: center;
+
+	display: flex;
+	flex-direction: row;
+
+	overflow: hidden;
+}
+
+.left {
+	display: flex;
+	flex-direction: column;
+	margin-right: 10vw;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-left: 10vw;
+}
+
+.text {
+	background: white;
+	width: fit-content;
+	padding: 0 8px 0 15px;
+
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#casterleft {
+	font-size: 7vh;
+	margin-bottom: 0px;
+	letter-spacing: 7px;
+	font-weight: bold;
+}
+
+#handleleft {
+	font-size: 3vh;
+	letter-spacing: 4px;
+	background-color: #ffba00;
+}
+
+#casterright {
+	font-size: 7vh;
+	margin-bottom: 0px;
+	letter-spacing: 7px;
+	font-weight: bold;
+}
+
+#handleright {
+	font-size: 3vh;
+	letter-spacing: 4px;
+	background-color: #ffba00;
+}

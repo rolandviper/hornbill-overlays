@@ -1,0 +1,54 @@
+body {
+	font-family: Staatliches, sans-serif;
+	background: transparent;
+}
+
+#nameplate {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+
+	display: flex;
+	flex-direction: column;
+
+	overflow: hidden;
+	align-items: center;
+
+	opacity: 0;
+}
+
+.text {
+	background: white;
+	width: fit-content;
+	padding: 2vh 1vw 1vh 1vw;
+
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#main {
+	font-size: 10vh;
+	letter-spacing: 7px;
+	font-weight: bold;
+}
+
+#title {
+	font-size: 7vh;
+	letter-spacing: 7px;
+	font-weight: light;
+	background-color: #ffba00;
+}
+
+#info {
+	font-size: 5vh;
+	letter-spacing: 7px;
+	font-weight: light;
+}
+
+#sub {
+	font-size: 3vh;
+	letter-spacing: 7px;
+	font-weight: light;
+}

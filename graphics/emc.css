@@ -1,0 +1,41 @@
+body {
+	font-family: Staatliches, sans-serif;
+	background: transparent;
+}
+
+#nameplate {
+	position: absolute;
+	top: 65%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+
+	align-items: center;
+
+	display: flex;
+	flex-direction: column;
+
+	overflow: hidden;
+}
+
+.text {
+	background: white;
+	width: fit-content;
+	padding: 0 8px 0 15px;
+
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#emtitle {
+	font-size: 5vh;
+	margin-bottom: 0px;
+	letter-spacing: 7px;
+	font-weight: bold;
+}
+
+#emsub {
+	font-size: 3vh;
+	letter-spacing: 4px;
+	background-color: #ffba00;
+}
