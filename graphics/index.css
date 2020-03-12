@@ -1,6 +1,8 @@
 body {
 	font-family: Staatliches, sans-serif !important;
 	background: transparent;
+	/* background-image: url('./img/basegameref/stagereference.jpg');
+	background-size: cover; */
 }
 
 #base {
@@ -43,9 +45,11 @@ body {
 #logo {
 	position: absolute;
 	z-index: 5;
-	width: 50vw;
-	margin-top: 17vh;
-	margin-left: 10vw;
+	width: 23vw;
+
+	left: 220%;
+	top: 166%;
+
 	opacity: 0;
 }
 

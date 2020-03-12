@@ -1,6 +1,8 @@
 body {
 	font-family: Staatliches, sans-serif;
 	background: transparent;
+	/* background-image: url('./img/basegameref/stagereference.jpg');
+	background-size: cover; */
 }
 
 #nameplate {

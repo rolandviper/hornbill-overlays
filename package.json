@@ -14,15 +14,15 @@
 		"compatibleRange": "^1.1.1",
 		"dashboardPanels": [
 			{
-				"name": "panel",
-				"title": "Panel",
+				"name": "Wait",
+				"title": "WaitScreen",
 				"width": 2,
 				"file": "panel.html",
 				"headerColor": "#525F78"
 			},
 			{
 				"name": "l3info",
-				"title": "Lower3rdinfo",
+				"title": "Lower3rd",
 				"width": 2,
 				"file": "lower3rd.html",
 				"headerColor": "#525F78"
